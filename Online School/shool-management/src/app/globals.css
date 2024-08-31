@@ -1,0 +1,453 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+  background-color: black;
+}
+.uldata>li>a{
+ font-size: 20px;
+ position: relative;
+ 
+
+}
+.menubar{
+   position: absolute;
+  
+   width: 200px;
+   background-color: white;
+   border-radius: 8px;
+  
+   transform: scale(0);
+
+}
+.uldata li a:hover .menubar{
+      transform: scale(1);
+}
+.bdrs{
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(#000000e3,#c17474b6);
+  transform: scale(0);
+  transition: 0.5s;
+  transform-origin: left;
+  
+ 
+}
+.hvr{
+  padding: 10px;
+}
+.hvr:hover .bdrs{
+   transform: scale(1);
+
+}
+.submenu{
+  position: absolute;
+   padding: 30px;
+  width: 500px;
+  left: 200px;
+  background-color: white;
+  border-radius: 8px;
+ 
+  transform: scale(0);
+
+}
+.hvr1:hover .submenu{
+  transform: scale(1);
+}
+
+.tps{
+ border-radius: 80% 20% 10% 15%;
+ width: 70%;
+ margin-left: 30%;
+  background:linear-gradient(#000000e5,#ff000095), url('https://www.hubspot.com/hs-fs/hubfs/artist-creates-brand-visual-identity%20(1).jpg?width=595&height=400&name=artist-creates-brand-visual-identity%20(1).jpg');
+}
+.paralax{
+  background: url('https://www.classter.com/wp-content/uploads/2024/07/spheres-bg-new.webp');
+ height: 800px;
+  width: 100%;
+ /*  background-position: center;
+  background-repeat: no-repeat;
+ background-size: cover; */
+}
+.bgs1{
+  background: linear-gradient(#ffffff2f,#ffffff2c);
+  padding: 40px;
+  width: 100%;
+  
+  border-radius: 20px;
+  border: 2px solid #bab4b4;
+  box-shadow: 0px 0px 20px 10px #fff inset;
+}
+.bgs1 h1{
+  line-height: 45px;
+}
+.see:hover{
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+.btm{
+ 
+ 
+
+ height: 4px;
+ width: 100%;
+ background: linear-gradient(#ff000092,#000000e2) center;
+}
+.copy{
+  background:linear-gradient(#ffffff9c,#000000f8), url('https://www.classter.com/wp-content/uploads/2024/02/sms-square-image-1.webp');
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+.copy1{
+  background:linear-gradient(#ffffff9c,#d11a1aab), url('https://www.classter.com/wp-content/uploads/2024/02/sms-square-image-2.webp');
+  height: 400px;
+  margin-top: 30px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+.ele{
+  transition: 0.5s;
+  cursor: pointer;
+}
+.ele:hover{
+  background-color: #d42828;
+  color: white;
+}
+.cl1{
+  border: 5px solid #d42828;
+ 
+  width: 100%;
+  padding: 20px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.arrows{
+  margin-top: 50px;
+  height: 50px;
+  width: 55px;
+  background-color: #d42828;
+  border-radius: 50%;
+  color: white;
+  transition: 0.5s;
+
+}
+.cl1:hover{
+  background-color: #d42828;
+  color: white;
+ /*  border: 5px solid white; */
+  
+}
+.cl1:hover .arrows{
+  background-color: white;
+  color: #d42828;
+  transform: rotate(40deg);
+
+}
+.read{
+  background-color: #d42828;
+  padding: 15px;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  display: table;
+  margin: auto;
+  transition: 0.5s;
+
+}
+.read:hover{
+  transform: translateY(-10px);
+}
+.rdd{
+  height: 2px;
+  width: 300px;
+  background: linear-gradient(#ff000063,#000000f0);
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  
+}
+.see{
+  background-color: #d42828;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  display: table;
+  margin: auto;
+  margin-top: 30px;
+  width: 200px;
+  border-radius: 10px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+.see:hover{
+  background-color: #b32020;
+ transform: translateY((-10px));
+
+}
+
+.brgs{
+  position: absolute;
+  background: linear-gradient(#ff0000c6,#0000006d);
+  height: 300px;
+  width: 100%;
+  top: 0px;
+  transform: scale(0);
+ 
+}
+.tr:hover .brgs{
+  transform: scale(1);
+}
+/* .im1{
+  background: url('https://image.slidesharecdn.com/writingacritiqueorreview-181005090322/85/Writing-a-Critique-or-Review-22-320.jpg');
+  height: 200px;
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+ .frms{
+  
+   box-shadow: 0px 0px 10px 2px #000;
+   background: linear-gradient(#d61e1eda,#b97e0898);
+   border-radius: 8px;
+  
+   padding: 20px;
+
+  
+ }
+ #dl input::placeholder{
+  color: white;
+ }
+ .argument{
+  height: 500px;
+ 
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+
+ }
+ .htp img{
+  transition: 0.5s;
+ }
+ .htp img:hover{
+   transform: translateY(-10px);
+ }
+ .rounds{
+  background-color: white;
+ height: 1200px;
+  width: 95%;
+  border-radius: 200px;
+ /*  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px; */
+  margin-top: 10%;
+ }
+ .mt1{
+  margin-top: 10%;
+ }
+ #mx1{
+  background:linear-gradient(#00000070,#00000080), url('https://www.classter.com/wp-content/uploads/2024/07/parent-portal-mockup-updated.webp');
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ .ht2 img{
+  transition: 0.5s;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+ 
+
+ }
+ .ht2 img:hover{
+     transform: scale(1.1);
+ }
+ .mn p:hover{
+   color: #b32020;
+   cursor: pointer;
+ }
+ .mn p{
+  transition: 0.5s;
+ }
+ .bdr1{
+  border-bottom: 1px solid #b32020;
+  
+ }
+ .foot{
+  background-color: #1F1F1F;
+ padding: 20px;
+  height: 100vh;
+ }
+ .mob img{
+    transition: 0.5s;
+ }
+ .mob img:hover{
+      transform: translateY(-10px);
+ }
+ .hl img{
+  transition: 0.5s;
+
+ }
+ .hl img:hover{
+  transform: translateY(-10px);
+
+ }
+ .rds2{
+   border-radius: 100px 0px 100px 0px;
+   padding: 20px;
+ }
+ .bd3{
+  border: 2px solid white;
+  margin-top: 10px;
+ }
+ .fx{
+  border: 1px solid white;
+ right: 310px;
+ top: 60px;
+  z-index: 111;
+ }
+.affect{
+  background: linear-gradient(#a6a6b72b,#9fa5bb41);
+  height: 50px;
+  margin-top: 15px;
+ padding: 10px;
+ border-radius: 0px 8px 8px 8px;
+}
+.affect1{
+  background: linear-gradient(#a6a6b72b,#9fa5bb41);
+  height: 50px;
+  margin-top: 30px;
+ padding: 10px;
+ border-radius: 0px 8px 8px 8px;
+}
+.sales{
+  border: 1px solid #f0400f;
+  padding: 10px;
+  margin-top: 30px;
+  height: 40px;
+  font-size: 14px;
+  color: #b32020;
+  transition: 0.5s;
+  border-radius: 4px;
+}
+.sales:hover{
+   background-color: #b32020;
+   color: white;
+   border: white;
+}
+/* .boxsms input{
+ border-bottom: 1px solid #b32020;
+} */
+.boxsms input::placeholder{
+   font-size: 14px;
+}
+.modal3{
+  position: fixed;
+  height: 600px;
+  width: 500px;
+ 
+ z-index: 99;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ background-color: #b32020;
+}
+.modals{
+  background-color: white;
+  padding: 20px;
+  height: 500px;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 50px;
+  overflow-y: scroll;
+}
+.camp{
+  line-height: 50px;
+}
+.rad{
+  
+ 
+}
+.rad1{
+  border-radius: 50px 0px 50px 0px ;
+  background: linear-gradient(#ff0000cd,#000000dc),url('https://www.shutterstock.com/image-illustration/abstract-threedimensional-ornament-3d-geometric-260nw-2312798091.jpg');
+  height: 300px;
+  
+}
+.bg3{
+  background-color: white;
+ padding: 40px;
+  margin-top: 40px;
+  width: 100%;
+  border-radius: 250px 250px 150px 150px ;
+}
+.ends{
+  text-align: end;
+  border-radius: 50%;
+}
+.paralax1{
+  transition: 0.5s;
+  cursor: pointer;
+}
+.paralax1:hover{
+ background-color: #b32020;
+ color: white;
+ border: 2px solid white;
+ transform: translateY(-10px);
+}
+.end1{
+  transition: 0.5s;
+}
+.paralax1:hover .end1{
+  transform: rotate(40deg);
+}
+.cxl{
+   transition: 0.5s;
+}
+.cxl:hover{
+  transform: translateY(-10px);
+  width: 300px;
+}
+.edu{
+  background:linear-gradient(#0000004c,#00000053), url('https://www.classter.com/wp-content/uploads/2023/10/enrollments-vertical.webp');
+filter: blur(3px);
+  border-radius: 8px;
+  border: 2px solid #bab4b4;
+  
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  transition: 0.5s;
+  
+}
+.out{
+ bottom: 20px;
+ right: 20px;
+ padding: 15px;
+ font-size: 30px;
+ border-radius: 50%;
+ transition: 0.5s;
+}
+.edu:hover{
+  filter: blur(0px);
+}
+.edu:hover .out{
+  transform: rotate(40deg);
+}
